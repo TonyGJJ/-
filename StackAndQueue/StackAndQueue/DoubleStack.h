@@ -10,7 +10,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DoubleStack : NSObject
-
+- (void)createStack;
+- (void)push:(NSString *)source withStackNumber:(int) number;
+- (void)popStackNumber:(int)number;
+- (void)clear;
+- (void)printStack;
 @end
 
 NS_ASSUME_NONNULL_END
