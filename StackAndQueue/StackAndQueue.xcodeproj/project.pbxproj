@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CDC00AD02609CF2C00604504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC00ACF2609CF2C00604504 /* main.m */; };
+		CDC00AD92609D28E00604504 /* OneStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC00AD82609D28E00604504 /* OneStack.m */; };
+		CDC00ADD2609D29B00604504 /* DoubleStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC00ADC2609D29B00604504 /* DoubleStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		CDC00ACC2609CF2C00604504 /* StackAndQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StackAndQueue; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC00ACF2609CF2C00604504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDC00AD72609D28E00604504 /* OneStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneStack.h; sourceTree = "<group>"; };
+		CDC00AD82609D28E00604504 /* OneStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneStack.m; sourceTree = "<group>"; };
+		CDC00ADB2609D29B00604504 /* DoubleStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleStack.h; sourceTree = "<group>"; };
+		CDC00ADC2609D29B00604504 /* DoubleStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				CDC00ACF2609CF2C00604504 /* main.m */,
+				CDC00AD72609D28E00604504 /* OneStack.h */,
+				CDC00AD82609D28E00604504 /* OneStack.m */,
+				CDC00ADB2609D29B00604504 /* DoubleStack.h */,
+				CDC00ADC2609D29B00604504 /* DoubleStack.m */,
 			);
 			path = StackAndQueue;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDC00AD02609CF2C00604504 /* main.m in Sources */,
+				CDC00ADD2609D29B00604504 /* DoubleStack.m in Sources */,
+				CDC00AD92609D28E00604504 /* OneStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

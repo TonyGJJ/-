@@ -6,11 +6,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "OneStack.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        OneStack *oneStack = [[OneStack alloc] init];
+        [oneStack createStack];
+        for (int i = 1; i <= 10; i++) {
+            [oneStack push:[NSString stringWithFormat:@"%d", i]];
+        }
+        [oneStack pop];
+        [oneStack printStack];
     }
     return 0;
 }
