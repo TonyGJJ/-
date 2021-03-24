@@ -12,6 +12,7 @@
 		CDC00ADD2609D29B00604504 /* DoubleStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC00ADC2609D29B00604504 /* DoubleStack.m */; };
 		CDC00AE5260AEC2900604504 /* LinkStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC00AE4260AEC2900604504 /* LinkStack.m */; };
 		CDC00AE9260AEE0900604504 /* StackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC00AE8260AEE0900604504 /* StackNode.m */; };
+		CDC00AEE260B393300604504 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC00AED260B393300604504 /* Expression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,8 @@
 		CDC00AE4260AEC2900604504 /* LinkStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkStack.m; sourceTree = "<group>"; };
 		CDC00AE7260AEE0900604504 /* StackNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackNode.h; sourceTree = "<group>"; };
 		CDC00AE8260AEE0900604504 /* StackNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackNode.m; sourceTree = "<group>"; };
+		CDC00AEC260B393300604504 /* Expression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		CDC00AED260B393300604504 /* Expression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				CDC00ACF2609CF2C00604504 /* main.m */,
+				CDC00AEC260B393300604504 /* Expression.h */,
+				CDC00AED260B393300604504 /* Expression.m */,
 				CDC00AE1260AEB2000604504 /* StackOperation.h */,
 				CDC00AD72609D28E00604504 /* OneStack.h */,
 				CDC00AD82609D28E00604504 /* OneStack.m */,
@@ -143,6 +148,7 @@
 				CDC00AD02609CF2C00604504 /* main.m in Sources */,
 				CDC00ADD2609D29B00604504 /* DoubleStack.m in Sources */,
 				CDC00AE5260AEC2900604504 /* LinkStack.m in Sources */,
+				CDC00AEE260B393300604504 /* Expression.m in Sources */,
 				CDC00AE9260AEE0900604504 /* StackNode.m in Sources */,
 				CDC00AD92609D28E00604504 /* OneStack.m in Sources */,
 			);

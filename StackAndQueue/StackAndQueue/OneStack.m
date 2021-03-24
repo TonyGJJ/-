@@ -34,7 +34,7 @@
     }
     [_data addObject:souce];
     _top = (int)[_data count];
-    NSLog(@"插入成功");
+//    NSLog(@"插入成功");
 }
 
 - (void)pop {
@@ -45,14 +45,14 @@
     // 也可以使用removeLastObject
     [_data removeLastObject];
     _top--;
-    NSLog(@"移除成功");
+//    NSLog(@"移除成功");
 }
 
 - (NSString *)getTopStackData {
     if (_top == -1) {
         return @"";
     }
-    return _data[_top];
+    return [_data lastObject];
 }
 
 - (int)getTop {

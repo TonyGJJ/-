@@ -9,9 +9,13 @@
 #import "OneStack.h"
 #import "DoubleStack.h"
 #import "LinkStack.h"
+#import "Expression.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        Expression *test = [[Expression alloc] init];
+        [test test];
+        return 0;
         // insert code here...
 //        OneStack *oneStack = [[OneStack alloc] init];
 //        [oneStack createStack];
