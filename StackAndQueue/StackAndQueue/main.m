@@ -45,6 +45,12 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"执行pop 操作");
         [linkStack pop];
+        [linkStack pop];
+        [linkStack pop];
+        [linkStack pop];
+        [linkStack pop];
+        [linkStack pop];
+        [linkStack pop];
         [linkStack printStack];
     }
     return 0;

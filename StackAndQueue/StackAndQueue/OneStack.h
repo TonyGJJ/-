@@ -10,6 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// 顺序栈
 @interface OneStack : NSObject <StackOperation>
 
 @end

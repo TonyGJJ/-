@@ -7,12 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "StackOperation.h"
-#import "StackNode.h"
-
 /// 链式栈
 @interface LinkStack : NSObject <StackOperation>
-
-@property (assign, nonatomic) int count;
-@property (strong, nonatomic) StackNode *top;
 
 @end

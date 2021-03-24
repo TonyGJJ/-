@@ -6,6 +6,14 @@
 //
 
 #import "LinkStack.h"
+#import "StackNode.h"
+
+@interface LinkStack ()
+
+@property (assign, nonatomic) int count;
+@property (strong, nonatomic) StackNode *top;
+
+@end
 
 @implementation LinkStack
 
@@ -36,12 +44,20 @@
     return self.top.data;
 }
 
+- (int)getTop {
+    return self.count;
+}
+
 - (void)clear {
     self.top = nil;
     self.count = 0;
 }
 
 - (void)printStack {
+    if (self.top == nil) {
+        NSLog(@"当前栈是空栈，不能打印");
+        return;
+    }
     StackNode *node = self.top;
     while (node != nil) {
         NSLog(@"node.data ==== %@", node.data);

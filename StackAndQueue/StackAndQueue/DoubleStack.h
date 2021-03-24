@@ -10,6 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// 双栈
 @interface DoubleStack : NSObject <StackOperation>
 - (void)push:(NSString *)source withStackNumber:(int) number;
 - (void)popStackNumber:(int)number;
