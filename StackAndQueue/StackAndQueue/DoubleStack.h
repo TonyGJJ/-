@@ -6,15 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "StackOperation.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DoubleStack : NSObject
-- (void)createStack;
+@interface DoubleStack : NSObject <StackOperation>
 - (void)push:(NSString *)source withStackNumber:(int) number;
 - (void)popStackNumber:(int)number;
-- (void)clear;
-- (void)printStack;
 @end
 
 NS_ASSUME_NONNULL_END
