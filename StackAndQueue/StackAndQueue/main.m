@@ -14,7 +14,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Expression *test = [[Expression alloc] init];
-        [test test];
+        [test infixChageSuffix];
         return 0;
         // insert code here...
 //        OneStack *oneStack = [[OneStack alloc] init];

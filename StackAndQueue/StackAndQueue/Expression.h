@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Expression : NSObject
-- (void)test;
+- (void)infixChageSuffix;
 @end
 
 NS_ASSUME_NONNULL_END

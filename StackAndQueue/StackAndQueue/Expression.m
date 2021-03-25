@@ -25,7 +25,7 @@
 }
 
 // 中缀表达式转后缀表达式
-- (void)test {
+- (void)infixChageSuffix {
     // input 9+(3-1)×3+10÷2
     // ouput 9 3 1 - 3 * + 10 2 / +
     
@@ -62,6 +62,7 @@
             } else if ([temp isEqualToString:@"("]) {
                 [stack push:temp];
             } else if ([temp isEqualToString:@")"]) {
+                // 匹配 ) 并且去除 (
                 NSString *temp2 = [stack getTopStackData];
                 while (![temp2 isEqualToString:@"("] &&
                        ![temp2 isEqualToString:@")"]) {
@@ -86,15 +87,13 @@
                         newTemp = [stack getTopStackData];
                     }
                     [stack push:temp];
-                } else {
-                    if ([symbol isEqualToString:@"=="]) {
-                        [stack push:temp];
+                } else if ([symbol isEqualToString:@"=="]) {
+                    [stack push:temp];
+                } else  {
+                    if (temp2 == temp3) {
+                        [_infixArray addObject:temp3];
                     } else {
-                        if (temp2 == temp3) {
-                            [_infixArray addObject:temp3];
-                        } else {
-                            [stack push:temp];
-                        }
+                        [stack push:temp];
                     }
                 }
             }
